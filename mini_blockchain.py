@@ -34,16 +34,16 @@ class Blockchain:
 
 # test the chain
 
-# Create the blockchain
+# 1 Create the blockchain
 
 blockchain = Blockchain()
 
-# add to the chain
+# 2 add to the chain
 blockchain.add_block("first block")
 blockchain.add_block("second block")
 blockchain.add_block("third block")
 
-# dislplay the chain
+# 3 show the chain
 
 print("Blockchain:")
 for block in blockchain.chain:
