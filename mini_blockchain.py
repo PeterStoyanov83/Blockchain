@@ -51,3 +51,28 @@ for block in blockchain.chain:
     print("Previous hash:", block.prev_hash)
     print("Hash:", block.hash)
     print()
+
+
+''' 
+this outputs : 
+
+Blockchain:
+Data: Genesis Block
+Previous hash: 0
+Hash: 89eb0ac031a63d2421cd05a2fbe41f3ea35f5c3712ca839cbf6b85c4ee07b7a3
+
+Data: first block
+Previous hash: 89eb0ac031a63d2421cd05a2fbe41f3ea35f5c3712ca839cbf6b85c4ee07b7a3
+Hash: 2af7909ca08f18facc556624b02e1a5c683bb0f557137b1ef7e0028fc457715c
+
+Data: second block
+Previous hash: 2af7909ca08f18facc556624b02e1a5c683bb0f557137b1ef7e0028fc457715c
+Hash: d387a3f3e5c0aebd3847c2dde0a248ddb1fa8f04fe6ff99e9ce7e60fdbcd9c3f
+
+Data: third block
+Previous hash: d387a3f3e5c0aebd3847c2dde0a248ddb1fa8f04fe6ff99e9ce7e60fdbcd9c3f
+Hash: a4781a098e6c0c2f52a15916ef2dd45a39c488e47ed8eab672ceecadbb74e9f1
+
+
+Process finished with exit code 0
+'''
