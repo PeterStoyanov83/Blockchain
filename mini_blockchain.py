@@ -52,7 +52,6 @@ for block in blockchain.chain:
     print("Hash:", block.hash)
     print()
 
-
 ''' 
 this outputs : 
 
