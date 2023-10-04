@@ -1,0 +1,31 @@
+# Simple Generative NFT in Solidity
+
+![Project Image](insert_image_url_here)
+
+## Overview
+
+This repository contains the code for creating a simple generative NFT (Non-Fungible Token) using Solidity, targeted for the Ethereum blockchain. Generative NFTs are unique digital assets generated algorithmically, making each token one-of-a-kind.
+
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- Solidity development environment set up.
+- Ethereum wallet for deployment and interaction.
+
+## Getting Started
+
+To get started with this project, follow these steps:
+
+1. Clone the repository to your local machine:
+
+   ```sh
+   git clone https://github.com/PeterStoyanov83/Simple_generative_NFT_in_solidity.git
